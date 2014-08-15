@@ -52,6 +52,10 @@ them however you see fit.
     padding-right: 0;
   }
 
+  .m-hidden {
+    display: none;
+  }
+
   .m-1of2 {
     @include grid-col;
     width: 50%;
@@ -87,6 +91,10 @@ them however you see fit.
     @include grid-col;
     width: 100%;
     padding-right: 0;
+  }
+
+  .t-hidden {
+    display: none;
   }
 
   .t-1of2 {
@@ -143,6 +151,10 @@ them however you see fit.
     @include grid-col;
     width: 100%;
     padding-right: 0;
+  }
+
+  .d-hidden {
+    display: none;
   }
 
   .d-1of2 {
